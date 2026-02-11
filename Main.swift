@@ -2,7 +2,7 @@ import Foundation
 import AppKit
 
 
-// <Zosia Voice> Fun Fact! Discord's charlimit for a status is 128, so if we want this to work for discord, probably want to stay below that! </Zosia Voice>
+// <Zosia Voice> Fun Fact! Discord's charlimit for a status is 128, while Github and Instagram's are both 80 characters! </Zosia Voice>
 // Method to pick the next status and emoji
 func getRandomStatus() -> Status {
     return Status(status: "Random Status!")
