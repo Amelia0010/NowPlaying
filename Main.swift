@@ -144,7 +144,7 @@ func nowPlayingHasChanged(notification: [String: Any]) {
         return
     }
 
-    // Fun fact: If you're listening to podcasts on spotify, the artist isn't propagated, instead if labels the "album" with the name of the podcast
+    // <Zosia Voice> Fun fact: If you're listening to podcasts on spotify, the artist isn't propagated, instead if labels the "album" with the name of the podcast </Zosia Voice>
     let album: String? = notification["kMRMediaRemoteNowPlayingInfoAlbum"] as? String
     let title: String? = notification["kMRMediaRemoteNowPlayingInfoTitle"] as? String
     let artist: String? = notification["kMRMediaRemoteNowPlayingInfoArtist"] as? String
